@@ -2,9 +2,11 @@
     <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
 </p>
 
-# Please note this is still in development and is not complete
+# No longer maintained, use https://github.com/MacsiDigital/laravel-zoom
 
 # Zoom API Wrapper ( https://zoom.github.io/api/ ) 
+
+No longer maintained, use https://github.com/MacsiDigital/laravel-zoom
 
 ## Installation
 
