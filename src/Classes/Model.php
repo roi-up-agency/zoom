@@ -37,7 +37,7 @@ abstract class Model
         return $this;
     }
 
-    public function return()
+    public function returned()
     {
     	return $this->attributes;
     }
