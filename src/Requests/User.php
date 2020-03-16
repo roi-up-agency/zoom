@@ -40,7 +40,7 @@ class User extends Request
      *
      * @return array
      */
-    public function list()
+    public function listado()
     {
         $response = $this->get('users');
         $users = [];
