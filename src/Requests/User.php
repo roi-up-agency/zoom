@@ -1,14 +1,14 @@
 <?php
-namespace MacsiDigital\Zoom\Requests;
+namespace vaporic\Zoom\Requests;
 
-use MacsiDigital\Zoom\Http\Request;
-use MacsiDigital\Zoom\Classes\User as Model;
-use MacsiDigital\Zoom\Classes\Panelist;
-use MacsiDigital\Zoom\Classes\Registrant;
+use vaporic\Zoom\Http\Request;
+use vaporic\Zoom\Classes\User as Model;
+use vaporic\Zoom\Classes\Panelist;
+use vaporic\Zoom\Classes\Registrant;
 
 /**
  * Class Users
- * @package MacsiDigital\Zoom\Classes
+ * @package vaporic\Zoom\Classes
  *
  */
 class User extends Request

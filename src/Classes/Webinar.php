@@ -1,5 +1,5 @@
 <?php 
-namespace MacsiDigital\Zoom\Classes;
+namespace vaporic\Zoom\Classes;
 
 class Webinar extends Model
 {

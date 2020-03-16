@@ -1,5 +1,5 @@
 <?php
-namespace MacsiDigital\Zoom\Http;
+namespace vaporic\Zoom\Http;
 
 use Firebase\JWT\JWT;
 use GuzzleHttp\Client;

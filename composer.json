@@ -1,7 +1,7 @@
 {
-    "name": "macsidigital/zoom",
+    "name": "vaporic/zoom",
     "description": "Zoom API Wrapper for Laravel",
-    "homepage": "https://github.com/MacsiDigital/zoom",
+    "homepage": "https://github.com/vaporic/zoom",
     "keywords": ["zoom", "api", "client"],
     "license": "MIT",
     "authors": [
@@ -18,13 +18,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MacsiDigital\\Zoom\\ZoomServiceProvider"
+                "vaporic\\Zoom\\ZoomServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "MacsiDigital\\Zoom\\": "/src"
+            "vaporic\\Zoom\\": "/src"
         }
     },
     "minimum-stability" : "dev"

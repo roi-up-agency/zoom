@@ -1,8 +1,8 @@
 <?php
-namespace MacsiDigital\Zoom\Requests;
+namespace vaporic\Zoom\Requests;
 
-use MacsiDigital\Zoom\Http\Request;
-use MacsiDigital\Zoom\Classes\Meeting as Model;
+use vaporic\Zoom\Http\Request;
+use vaporic\Zoom\Classes\Meeting as Model;
 
 class Meeting extends Request
 {

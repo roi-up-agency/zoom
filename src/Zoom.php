@@ -1,11 +1,11 @@
 <?php
-namespace MacsiDigital\Zoom;
+namespace vaporic\Zoom;
 
 use Exception;
 use Illuminate\Support\Str;
 
 /**
- * @package MacsiDigital\Zoom
+ * @package vaporic\Zoom
  */
 class Zoom
 {
@@ -43,7 +43,7 @@ class Zoom
      */
     public function make($resource)
     {
-        $class = 'MacsiDigital\\Zoom\\Requests\\' . Str::studly($resource);
+        $class = 'vaporic\\Zoom\\Requests\\' . Str::studly($resource);
         if (class_exists($class)) {
             return new $class();
         }

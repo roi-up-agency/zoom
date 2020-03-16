@@ -1,10 +1,10 @@
 <?php
-namespace MacsiDigital\Zoom\Requests;
+namespace vaporic\Zoom\Requests;
 
-use MacsiDigital\Zoom\Http\Request;
-use MacsiDigital\Zoom\Classes\Webinar as Model;
-use MacsiDigital\Zoom\Classes\Panelist;
-use MacsiDigital\Zoom\Classes\Registrant;
+use vaporic\Zoom\Http\Request;
+use vaporic\Zoom\Classes\Webinar as Model;
+use vaporic\Zoom\Classes\Panelist;
+use vaporic\Zoom\Classes\Registrant;
 
 class Webinar extends Request
 {

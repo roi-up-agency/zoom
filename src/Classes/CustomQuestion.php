@@ -1,5 +1,5 @@
 <?php 
-namespace MacsiDigital\Zoom\Classes;
+namespace vaporic\Zoom\Classes;
 
 class CustomQuestion extends Model
 {

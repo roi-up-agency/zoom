@@ -1,5 +1,5 @@
 <?php
-namespace MacsiDigital\Zoom;
+namespace vaporic\Zoom;
 
 use Illuminate\Support\ServiceProvider;
 
