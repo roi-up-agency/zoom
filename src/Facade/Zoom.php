@@ -1,5 +1,5 @@
 <?php
-namespace vaporic\Zoom\Facade;
+namespace RoiUp\Zoom\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

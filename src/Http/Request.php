@@ -1,5 +1,5 @@
 <?php
-namespace vaporic\Zoom\Http;
+namespace RoiUp\Zoom\Http;
 
 use Firebase\JWT\JWT;
 use GuzzleHttp\Client;

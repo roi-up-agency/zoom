@@ -1,5 +1,5 @@
 <?php 
-namespace vaporic\Zoom\Classes;
+namespace RoiUp\Zoom\Classes;
 
 class Occurance extends Model
 {

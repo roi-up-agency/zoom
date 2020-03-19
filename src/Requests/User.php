@@ -1,14 +1,14 @@
 <?php
-namespace vaporic\Zoom\Requests;
+namespace RoiUp\Zoom\Requests;
 
-use vaporic\Zoom\Http\Request;
-use vaporic\Zoom\Classes\User as Model;
-use vaporic\Zoom\Classes\Panelist;
-use vaporic\Zoom\Classes\Registrant;
+use RoiUp\Zoom\Http\Request;
+use RoiUp\Zoom\Classes\User as Model;
+use RoiUp\Zoom\Classes\Panelist;
+use RoiUp\Zoom\Classes\Registrant;
 
 /**
  * Class Users
- * @package vaporic\Zoom\Classes
+ * @package RoiUp\Zoom\Classes
  *
  */
 class User extends Request

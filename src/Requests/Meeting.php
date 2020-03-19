@@ -1,8 +1,8 @@
 <?php
-namespace vaporic\Zoom\Requests;
+namespace RoiUp\Zoom\Requests;
 
-use vaporic\Zoom\Http\Request;
-use vaporic\Zoom\Classes\Meeting as Model;
+use RoiUp\Zoom\Http\Request;
+use RoiUp\Zoom\Classes\Meeting as Model;
 
 class Meeting extends Request
 {

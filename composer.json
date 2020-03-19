@@ -1,13 +1,13 @@
 {
     "name": "roi-up-agency/zoom",
     "description": "Zoom API Wrapper for Laravel",
-    "homepage": "https://github.com/vaporic/zoom",
+    "homepage": "https://github.com/roi-up-agency/zoom",
     "keywords": ["zoom", "api", "client"],
     "license": "MIT",
     "authors": [
         {
             "name": "Colin Hall",
-            "email": "colin@macsi.co.uk"
+            "email": "devs@roi-up.es"
         }
     ],
     "require": {
@@ -18,13 +18,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vaporic\\Zoom\\ZoomServiceProvider"
+                "RoiUp\\Zoom\\ZoomServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "vaporic\\Zoom\\": "/src"
+            "RoiUp\\Zoom\\": "/src"
         }
     },
     "minimum-stability" : "dev"

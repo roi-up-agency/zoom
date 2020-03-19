@@ -2,7 +2,7 @@
     <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
 </p>
 
-# No longer maintained, use https://github.com/MacsiDigital/laravel-zoom
+# No longer maintained, use https://github.com/RoiUp/laravel-zoom
 
 # Zoom API Wrapper ( https://zoom.github.io/api/ ) 
 
@@ -15,7 +15,7 @@ No longer maintained, use https://github.com/MacsiDigital/laravel-zoom
 From the command line, run:
 
 ```
-composer require macsidigital/zoom
+composer require roi-up-agency/zoom
 ```
 
 ### Step 2: Service Provider (For Laravel < 5.5)
@@ -23,7 +23,7 @@ composer require macsidigital/zoom
 For your Laravel app, open `config/app.php` and, within the `providers` array, append:
 
 ```
-MacsiDigital\Zoom\ZoomServiceProvider::class
+RoiUp\Zoom\ZoomServiceProvider::class
 ```
 
 ### Step 3: Publish Configs
@@ -31,7 +31,7 @@ MacsiDigital\Zoom\ZoomServiceProvider::class
 From the command line, run:
 
 ```
-php artisan vendor:publish --provider="MacsiDigital\Zoom\ZoomServiceProvider"
+php artisan vendor:publish --provider="RoiUp\Zoom\ZoomServiceProvider"
 ```
 
 After that you will see `zoom.php` file in config directory, where you add value for api_key and api_secret
@@ -39,7 +39,7 @@ After that you will see `zoom.php` file in config directory, where you add value
 ### Usage
 
 ```
-$zoom = new MacsiDigital\Zoom\Zoom();
+$zoom = new RoiUp\Zoom\Zoom();
 
 $zoom->users->list();
 ```

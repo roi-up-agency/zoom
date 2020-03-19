@@ -1,5 +1,5 @@
 <?php
-namespace vaporic\Zoom;
+namespace RoiUp\Zoom;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,10 +1,10 @@
 <?php
-namespace vaporic\Zoom\Requests;
+namespace RoiUp\Zoom\Requests;
 
-use vaporic\Zoom\Http\Request;
-use vaporic\Zoom\Classes\Webinar as Model;
-use vaporic\Zoom\Classes\Panelist;
-use vaporic\Zoom\Classes\Registrant;
+use RoiUp\Zoom\Http\Request;
+use RoiUp\Zoom\Classes\Webinar as Model;
+use RoiUp\Zoom\Classes\Panelist;
+use RoiUp\Zoom\Classes\Registrant;
 
 class Webinar extends Request
 {

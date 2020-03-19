@@ -1,11 +1,11 @@
 <?php
-namespace vaporic\Zoom;
+namespace RoiUp\Zoom;
 
 use Exception;
 use Illuminate\Support\Str;
 
 /**
- * @package vaporic\Zoom
+ * @package RoiUp\Zoom
  */
 class Zoom
 {
@@ -43,7 +43,7 @@ class Zoom
      */
     public function make($resource)
     {
-        $class = 'vaporic\\Zoom\\Requests\\' . Str::studly($resource);
+        $class = 'RoiUp\\Zoom\\Requests\\' . Str::studly($resource);
         if (class_exists($class)) {
             return new $class();
         }
