@@ -2,8 +2,6 @@
     <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
 </p>
 
-# No longer maintained, use https://github.com/RoiUp/laravel-zoom
-
 # Zoom API Wrapper ( https://zoom.github.io/api/ ) 
 
 No longer maintained, use https://github.com/MacsiDigital/laravel-zoom
